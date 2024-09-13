@@ -1,0 +1,39 @@
+.orders-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 100px;
+}
+
+.orders-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.order-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  background-color: rgb(184, 203, 243);
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+.order-card .left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.order-card .left img {
+  width: 100px;
+}
+
+.order-card .left h1 {
+  font-size: 20px;
+  font-family: cursive;
+}
+.order-card h3 {
+  color: green;
+}

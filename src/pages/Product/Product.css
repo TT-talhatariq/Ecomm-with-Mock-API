@@ -1,0 +1,42 @@
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 50px;
+  padding: 50px 150px;
+}
+
+.product-pic img {
+  width: 400px;
+}
+.product-content h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.product-content h3 {
+  color: green;
+}
+
+.product-content button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.product-content button:hover {
+  transform: scale(0.9);
+  transition: all 0.3s;
+}
+
+.product-spin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 4rem;
+}

@@ -1,0 +1,49 @@
+header {
+  background-image: url("assets/bg-pic.jpg");
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: white;
+  background-image: linear-gradient(
+    135deg,
+    rgba(144, 222, 255, 0.74) 10%,
+    rgba(255, 0, 0.74, 0.4) 100%
+  );
+}
+
+header h1 {
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+header h3,
+header p,
+header a {
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+header button {
+  margin-bottom: 42px;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 42px;
+  background: white;
+  color: dimgray;
+  font-size: 20px;
+  box-shadow: 0 4px 1rem 0 dimgray;
+}
+header button:hover {
+  cursor: pointer;
+}

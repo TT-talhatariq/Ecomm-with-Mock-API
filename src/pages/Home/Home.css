@@ -1,0 +1,33 @@
+.home {
+  background-image: url("assets/bg-img.jpg");
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.content {
+  padding: 10px 100px;
+  color: white;
+}
+.content h1 {
+  font-size: 60px;
+  background-color: rgba(144, 5, 5, 0.7);
+  color: #f5e32f;
+  padding: 10px 20px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.content p {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.content a {
+  background-color: rgba(144, 5, 5);
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}

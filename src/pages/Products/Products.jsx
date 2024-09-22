@@ -17,9 +17,7 @@ const Products = () => {
     const fetchProducts = async () => {
       setIsLoading(true);
       try {
-        const response = await axios.get(
-          "https://66c63bc2134eb8f43497236c.mockapi.io/products"
-        );
+        const response = await axios.get("http://localhost:3002/products");
 
         setProducts(response.data);
         setFilteredProducts(response.data);
